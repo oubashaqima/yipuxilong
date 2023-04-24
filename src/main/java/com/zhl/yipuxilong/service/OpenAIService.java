@@ -10,4 +10,6 @@ public interface OpenAIService {
      */
     OpenAiService getChatService();
 
+    long getLastActivateTime();
+
 }
